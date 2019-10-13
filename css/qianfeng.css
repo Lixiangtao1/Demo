@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*重置默认设置*/
+*{margin:0;padding: 0;}
+ul,ol,li{list-style: none;}
+b,strong{font-weight: normal;}
+i,em{font-style: normal;}
+a,u{text-decoration: none;}
+h1,h2,h3,h4,h5,h6{font-size: 12px;font-weight: normal;}
+/*logo*/
+#logo{height: 62px;background: #232323;margin:0 auto;}
+.logo_cont{width: 1000px;height: 62px;margin: 0 auto;}
+.logo_cont h1{width: 157px;height: 40px;float: left;padding: 13px 0  0 10px;}
+.logo_cont .nav{width: 760px;height: 62px;float: right;}
+.nav li{float: left;line-height: 38px;background: url(../images/biankuang_03.jpg) no-repeat right center;padding: 13px;font-size: 12px;}
+.nav li a{color: #f1f1ff;}
+.nav .bg_none{background: none;}
+/*banner*/
+#banner{height: 420px;background: url(../images/banner_02.jpg) no-repeat center;border-bottom:1px solid #a8a8a8;}
+.banner_cont{width: 1000px;height: 420px;margin:0 auto;}
+/*case*/
+#case{height: 350px;background: #f5f5f5;}
+.case_cont{width: 1000px;height: 350px;margin:0 auto;}
+.case_show{width: 262px;height: 295px;background: url(../images/casebg_03.jpg) no-repeat right 35px;text-align: center;padding-top: 55px;float: left;}
+.case_show h2{font-size: 20px;line-height: 20px;color: #252e3b;margin: 16px 0 20px;}
+.case_show h3{font-size: 12px;line-height: 12px;color: #546c7d;margin-bottom: 19px;}
+.case_show p{font-size: 12px;line-height: 18px;color: #a3bccd;}
+.case_show2{width: 255px;}
+.case_show3{width: 252px;}
+.case_show4{width: 231px;background: none;}
+/*news*/
+#news-cont{width: 1000px;height: 278px;margin: 0 auto;padding-top: 68px;}
+.news-l{width: 297px;height: 226px;;float: left;border: 1px solid #ddd;padding: 1px;}
+.new-l img{width:297px;height: 224px;}
+
+.news-c{width: 340px;height: 226px;float: left;margin: 0 24px 0 16px;border-right: 1px solid #dcdedf;}
+.news-c h2{font-size: 18px;color: #222;line-height: 18px;}
+.news-c h3{font-size: 15px;line-height: 15px;margin: 16px 0 14px;}
+.news-c h3 a{color: #444;}
+.news-c p{font-size: 12px;line-height: 18px;text-indent: 2em;border-bottom:1px dashed #999;padding-bottom: 10px;}
+.news-c p a{color: #999;}
+.news-c ul{padding-top: 11px;}
+.news-c li{font-size: 14px;line-height: 28px;background: url(../images/news_a_03.jpg) no-repeat center left;padding-left: 7px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.news-c li a{color: #444;}
+
+/*文本溢出
+1.让文本不换行 white-space:nowrap;
+	white-space:normal（默认值）/***nowrap(不换行，文本会在同一行上继续，直到遇到标签为止)/pre(空白会被浏览器保存，其行为方式类似HTML中的pre标签)/pre-wrap(保留空白符序列，但正常进行换行)/pre-line(合并空白符序列，但是保留换行符)/inherit(规定应该从父元素继承White-pace属性的值；IE浏览器不支持此属性值);
+2.让超出的文本隐藏：overflow：hidden
+   overflow:visible/hidden(隐藏)/scroll/auto(自动)/inherit;
+   visible:默认值，内容不会被修剪，会呈现在元素框之外;
+   hidden:内容会被修减，并且其余内容是不可见的;
+   scroll:内容会被修剪，但是浏览器会显示滚动条，以便查看其余内容;
+   **auto（移动端常用）:如果内容被修减，浏览器会显示滚动条以便查看其余内容;
+   inherit:规定应该从父元素继承overflow属性的值;
+3.让隐藏的文本显示省略号
+	text-overflow:clip/ellipsis;
+	clip:不显示省略号（...）,而是简单的截切;
+	ellipsis:当对象内文本溢出时，显示省略标记;
+
+	text-overflow属性仅是...,当单行文本溢出时是否显示省略标记，并不具备其他的样式属性定义，要实现溢出时产生的省略号的效果还需要定义
+	1.容器宽度：width：value；
+	2.强制文本在一行内显示white-space：nowrap;
+	3.溢出内容为隐藏;overflow:hidden;
+	4.溢出文本显示省略号：text-overflow:ellipsis;
+4.盒子的宽度！！！
+
+*/
+
+.news-r{width: 233px;height: 226px;float: left;}
+.news-r h2{font-size: 20px;color: #000;padding-bottom: 19px;}
+.news-r h3{font-size: 18px;color: #666;margin:29px 0 17px;}
+.news-r p{font-size: 12px;color: #666;line-height: 24px;}
+/*end*/
+#end{height: 214px;background: #222;}
